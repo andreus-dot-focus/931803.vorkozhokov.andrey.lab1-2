@@ -1,0 +1,12 @@
+﻿@model WebApplication1.Models.NumbersViewModel
+@{
+    ViewBag.Title = "PassUsingModel";
+}
+
+<h2>PassUsingModel</h2>
+<b>Rand value first:</b> @Model.number1<br>
+<b>Rand value second: </b>@Model.number2<br>
+<b>Add</b><br>@Model.number1 + @Model.number2 = @Model.Summ<br>
+<b>Sub</b><br>@Model.number1 - @Model.number2 = @Model.Subtraction<br>
+<b>Mult</b><br>@Model.number1 * @Model.number2 = @Model.Multiplication<br>
+<b>Div</b><br>@Model.number1 / @Model.number2 = @Model.Division<br>
